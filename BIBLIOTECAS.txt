@@ -1,0 +1,23 @@
+﻿BACKEND 
+
+const express = require('express') // Importando o pacote para uso do Express. (servidor)
+const mongoose = require('mongoose') // Importando o pacote para conecão com mongoDB
+const multer = require('multer') // Bilioteca que o processamento da requisiçao que vem no BODY com multi-tipos (acredito que seja um bodyparser que aceita imagem)
+const path = require('path') // Bilioteca que formata caminhos para ficarem iguais em Unix e Linux ---JA VEM COM NODE
+const sharp = require('sharp') // Dependencia que permite manipular imagens
+const fs = require('fs') // File system ---JA VEM COM NODE
+const cors = require('cors') // Permite que backend seja acessivel pelo frontend pelo react mesmo estando em dominios diferentes
+const io = require('socket.io')(server) // com isso ele aceita protocolo websocket (realtime)
+
+FRONTEND 
+
+
+
+
+
+REACT-NATIVE
+react-navigation // Biblioteca para melhor navegacão
+react-native-gesture-handler // Biblioteca para capturar gestos tipo puxar etc (Nescessario linkar com os codigos nativos no android e iOS) DEPOIS DE LINKAR PRECISA DAR REACT-NATIVE RUN ANDROID
+axios //  PARA FAZER CHAMADAS PARA BACKEND
+react-native-image-picker // Biblioteca para abrir imagens e tirar foto
+
